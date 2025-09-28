@@ -11,46 +11,64 @@ redirect_from:
 
 欢迎对密码学与隐私保护、分布式计算感兴趣的硕士/博士研究生和高年级本科生加入到我的课题组！
 
-A data-driven personal website
+教育经历
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+2012.09-2017.07 中国科学院数学与系统科学研究院，博士
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+2008.09-2012.06 湘潭大学，学士
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+工作经历
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2024.01-至今 海南大学
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+2022.06-2023.09 University of Hyogo
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+2017.09-2023.12 暨南大学
 
-**Markdown generator**
+代表性论文
+======
+1. L. Wang, L. Song, B. Wu, M. Rahman, T. Isobe: Revisiting the Boomerang Attack from a Perspective of 3-differential, IEEE Transactions on Information Theory, 2024. (CCF A)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+2. F. Liu*, R. Anand, L. Wang*, W. Meier, T. Isobe: Coefficient Grouping: Breaking Chaghri and More, EUROCRYPT, Vol. 14007, 287–317, 2023. (CCF A)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+3. S. Mesnager, C. Tang, Y. Qi, L. Wang, B. Wu, K. Feng: Further Results on Generalized Bent Functions and Their Complete Characterization, IEEE Transactions on Information Theory, 64(7):5441-5452, 2018. (CCF A)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+4. Q. Yang, L. Song, N. Zhang, D. Shi, L. Wang, J. Zhao, L. Hu, J. Weng: Optimizing Rectangle and Boomerang Attacks: A Unified and Generic Framework for Key Recovery, Journal of Cryptology, 2024. (CCF A)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+5. L. Wang, B. Wu, Z. Liu, D. Lin: Three new infinite families of bent functions, SCIENCE CHINA Information Sciences, 61(3):032104:1-14, 2018. (CCF A)
+
+6. J. Xu, L. Wang*: Building Capacity-Achieving T-PIR Schemes for Some Parameters Over Binary Field via Subfield Sub-Codes, IEEE Transactions on Communications, 70(1):59-70, 2022. (CCF B, TOP)
+
+7. J. Xu, Y. Zhang*, L. Wang*: Folded Polynomial Codes for Coded Distributed AA^T-Type Matrix Multiplication, IEEE Transactions on Communications, 71(9):5051-5064, 2023. (CCF B, TOP)
+
+8. L. Wang, L. Wang*, B. Zhang: A new class of generalized almost perfect nonlinear power function, Finite Fields and Their Applications, Vol. 82, ID:102051, 2022. (CACR B)
+
+9. L. Wang, B. Wu: General constructions of permutation polynomials of the form (x^{2^m}+x+\delta)^{i(2^m-1)+1}+x over F_{2^{2m}}, Finite Fields and Their Applications, 52:137-155, 2018. (CACR B)
+
+10. L. Wang, B. Wu, Z. Liu: Further results on permutation polynomials of the form (x^{p^m}-x+\delta)^s+L(x) over F_{p^{2m}}, Finite Fields and Their Applications, 44:92-112, 2017. (CACR B)
+
+主持或参与的项目
+======
+1. 国家自然科学基金青年基金，最优Boomerang一致性置换的存在性与构造问题研究， 2022/01-2024/12，主持
+
+2. 国家自然科学基金重点项目，基于密码学的多方隐私计算关键技术研究，2024/01-2028/12，参与
+
+3. 国家自然科学基金重点项目，数据驱动的区块链监管技术研究, 2021/01-2025/12，参与
+
+4. 广东省基础与应用基础研究基金自然科学基金面上项目，轻量级密码关键组件函数的构造及相关理论问题研究，2022/01-2024/12，主持
+
+5. 广东省基础与应用基础研究基金区域联合基金青年基金项目，对称密码关键组件函数的构造问题研究，2020/10-2023/09，主持
+
+专利
+======
+1. 王立波等. 一种高可用的智能合约字节码重写方法、介质及装置, 专利号: ZL202211501602.6
+
+2. 王立波等. 一种基于区块链的去中心化群体机器人系统框架, 专利号: ZL202211242610.3
+
+社会兼职
+======
+1. 《Mathematical Reviews》评论员
+
+2. 国家自然科学基金函评专家
+
+3. 深信服产业大学专家顾问
