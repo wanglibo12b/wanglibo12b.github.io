@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人简介"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+王立波，博士，教授，硕士/博士生导师，海南省高层次人才，研究方向为密码学与隐私保护、分布式计算等。以第一/通讯作者在EUROCRYPT、IEEE Transactions on Information Theory、IEEE Transactions on Communications和Finite Fields and Their Applications等会议和期刊发表论文二十余篇，已授权国家发明专利2项。
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+欢迎对密码学与隐私保护、分布式计算感兴趣的硕士/博士研究生和高年级本科生加入到我的课题组！
 
 A data-driven personal website
 ======
