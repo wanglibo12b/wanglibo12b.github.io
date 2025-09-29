@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "王立波课题组"
+title                    : "密码学与隐私计算课题组"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,9 +24,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "王立波"
+  name             : "密码学与隐私计算课题组"
   pronouns         : # example: "she/her"  
-  bio              : "海南大学教授"
+  bio              : "海南大学网络空间安全学院"
   location         : "海南省海口市"
   employer         : #"Red Brick University"
   uri              : # URL
