@@ -14,10 +14,10 @@ main:
   #- title: "Talks"
    # url: /talks/    
 
-  - title: "实验室成员"
-    url: /teaching/    
+  #- title: "teaching"
+   # url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "实验室成员"
     url: /portfolio/
         
   #- title: "Blog Posts"
